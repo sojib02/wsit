@@ -217,7 +217,7 @@ nav .navbar {
 }
 nav a { color: #fff }
 nav .logo {
-	float: left;
+	
 	display: inline-block;
 	font-size: 30px;
 	font-weight: bold
