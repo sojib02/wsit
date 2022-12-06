@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>New website</title>
+	<meta  name="viewport" content="width=device-width,initial-scale=1.0"/>
+	 <link rel="stylesheet" href="themes/default/default.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/light/light.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/dark/dark.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/bar/bar.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="css/nivo-slider.css" type="text/css" media="screen" />	
+
+	
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="css/responsive.css" />
+	
+	<link rel="icon" type="image/png" href="img/mpi.png">
+</head>
+<body>
+	<div id="full">
+		<div id="short">
+			<header>
+					<div id="header">
+						
+						<h2>Munshigonj polytechnic institute</h2>
+						<p>Mirkadim,Munshigonj</p>
+					</div>
+					
+                
+			</header>
+		</div>
+	</div>
+	<div id="full1">
+		<div id="short">
+			
+				<div id="nav">
+					<ul>
+						<li><a href="#">Home</a></li>
+						<li><a href="inside.html">inpage</a></li>
+						<li><a href="#">Department &raquo;</a>
+						 	<ul>
+						 		<li><a href="#">Computer</a></li>
+						 		<li><a href="#">Civil</a></li>
+						 		<li><a href="#">Electrical</a></li>
+						 		<li><a href="#">Electromedical</a></li>
+						 		<li><a href="#">Electronics</a></li>
+						 		<li><a href="#">Mechanical</a></li>
+						 		<li><a href="#">RAC</a></li>
+						 		<li><a href="#">IPCT</a></li>
+						 	</ul>
+						</li>
+						<li><a href="#">Semester &raquo;</a>
+							<ul>
+								<li><a href="#">1st Semester</a></li>
+								<li><a href="#">2nd Semester</a></li>
+								<li><a href="#">3rd Semester</a></li>
+								<li><a href="#">4th Semester</a></li>
+								<li><a href="#">5th Semester</a></li>
+								<li><a href="#">6th Semester</a></li>
+								<li><a href="#">7th Semester</a></li>
+							</ul>
+						</li>
+						<li><a href="#"> Shift &raquo;</a>
+							<ul>
+								<li><a href="#">1st</a></li>
+								<li><a href="#">2nd</a></li>
+							</ul>
+						</li>
+						<li><a href="#">Subject &raquo;</a></li>
+						<li><a href="#"> Teacher&raquo;</a></li>
+						<li><a href="img">Gallery&raquo;</a></li>
+					</ul>
+				</div>
+			
+			
+			
+			
+			
+			
+			<nav>
+					<div class="navbar clear">
+					
+						<div class="menu-toggle"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></div>
+						<div class="menu">
+							<ul>
+								<li><a href="">menu 1</a></li>
+								<li><a href="">menu 2</a></li>
+								<li>
+									<span class="open-submenu">menu 3 <span class="arrow down"></span></span>
+									<ul>
+										<li><a href="">almenupont 1</a></li>
+										<li><a href="">almenupont 2</a></li>
+										<li><a href="">almenupont 3</a></li>
+										<li><a href="">almenupont 4</a></li>
+									</ul>
+								</li>
+								<li><a href="">menu 4</a></li>
+							</ul>
+						</div>
+					</div>
+				</nav>	
+
+				<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.12.0.min.js"></script>
+
+				<script type="text/javascript">
+
+				var menu = $(".menu");
+				$(window).resize(function(){
+					$(".menu-toggle").removeClass("active");
+					if($(window).innerWidth() > 767){
+						menu.show();
+					} else {
+						menu.hide();
+					}
+				});
+				$(".menu-toggle").click(function(){
+					$(this).toggleClass("active");
+					menu.slideToggle();
+				})
+				$(".open-submenu").click(function(){
+					$(this).toggleClass("active");
+					$(this).next("ul").slideToggle();
+					$(this).children(".arrow").toggleClass("down up");
+				});
+
+				</script>
+			
+			
+			
+			
+			
+		</div>
+	</div>
+	<div id="full2">
+		<div id="short">
+			<section>
+ 			<div class="slider-wrapper theme-bar">
+	            <div id="slider" class="nivoSlider">
+	                <img src="img/up.jpg" data-thumb="img/up.jpg" alt="" />
+					
+	                <a href="http://dev7studios.com"><img src="img/fun.jpg" data-thumb="img/fun.jpg" alt="" title="This is an example of a caption" /></a>
+					
+	                <img src="img/full.jpg" data-thumb="img/full.jpg" alt="" data-transition="slideInLeft" title="this is my caption"/>
+					
+	                <img src="img/nemo.jpg" data-thumb="img/nemo.jpg" alt="" title="#htmlcaption" />
+					
+	            </div>
+            <div id="htmlcaption" class="nivo-html-caption">
+                This is sweet caption
+            </div>
+        </div>	
+         <script type="text/javascript" src="js/jquery-1.9.0.min.js"></script>
+    	<script type="text/javascript" src="js/jquery.nivo.slider.js"></script>
+    	<script type="text/javascript">
+    $(window).load(function() {
+        $('#slider').nivoSlider();
+    });
+    </script>
+		</section>
+		</div>
+	</div>
+	<div id="full3">
+	<div id="short">
+		<div id="maindiv">
+			<div id="article">
+				    <article id="mainpage">
+						<h2>Facebook is a social networking website:</h2>
+						<div id="style">
+								<img src="img/12.jpg" alt="img">
+								<p>Facebook is a social networking website intended to connect friends, family, and business associates. There are many social networking sites in the world Twitter, Google Plus, My space, etc. But it is the largest of the other networking sites in the world. Facebook was founded in 2004 by Harvard student Mark Zuckerberg and originally called Facebook. </p>
+							</div>
+					</article>
+					<article id="mainpage">
+						<h2>Facebook is a social networking website:</h2>
+							<div id="style">
+								<img src="img/11.jpg" alt="img">
+								<p>Facebook is a social networking website intended to connect friends, family, and business associates. There are many social networking sites in the world Twitter, Google Plus, My space, etc. But it is the largest of the other networking sites in the world. Facebook was founded in 2004 by Harvard student Mark Zuckerberg and originally called Facebook. </p>
+							</div>
+					</article>
+					<article id="mainpage">
+						<h2>Facebook is a social networking website:</h2>
+							<div id="style">
+								<img src="img/12.jpg" alt="img">
+								<p>Facebook is a social networking website intended to connect friends, family, and business associates. There are many social networking sites in the world Twitter, Google Plus, My space, etc. But it is the largest of the other networking sites in the world. Facebook was founded in 2004 by Harvard student Mark Zuckerberg and originally called Facebook. </p>
+							</div>
+					</article>
+					<article id="mainpage">
+						<h2>Facebook is a social networking website:</h2>
+						<div id="style">
+								<img src="img/12.jpg" alt="img">
+								<p>Facebook is a social networking website intended to connect friends, family, and business associates. There are many social networking sites in the world Twitter, Google Plus, My space, etc. But it is the largest of the other networking sites in the world. Facebook was founded in 2004 by Harvard student Mark Zuckerberg and originally called Facebook. </p>
+							</div>
+				</div>
+		<aside>
+			<div id="aside">
+				<h2>Social networking website:</h2>
+				<ul>
+					<li><a href="#">new item</a></li>
+					<li><a href="#">new item</a></li>
+					<li><a href="#">new item</a></li>
+					<li><a href="#">new item</a></li>
+					<li><a href="#">new item</a></li>
+				</ul>
+			</div>
+			<div id="aside">
+				<h2>Social networking website:</h2>
+				<ul>
+					<li><a href="#">new item</a></li>
+					<li><a href="#">new item</a></li>
+					<li><a href="#">new item</a></li>
+					<li><a href="#">new item</a></li>
+					<li><a href="#">new item</a></li>
+				</ul>
+			</div><div id="aside">
+				<h2>Social networking website:</h2>
+				<ul>
+					<li><a href="#">new item</a></li>
+					<li><a href="#">new item</a></li>
+					<li><a href="#">new item</a></li>
+					<li><a href="#">new item</a></li>
+					<li><a href="#">new item</a></li>
+				</ul>
+			</div>
+		</aside>
+		</div>
+	</div>
+</div>
+	<div id="full4">
+		<div id="short">
+			<footer>
+				<div id="">
+					
+				</div>
+				<div id="footer">
+					<p>&copy;All Recebard By-My Website-sojib</p>
+					
+				</div>
+			</footer>
+		</div>
+	</div>
+	<script src="js/script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

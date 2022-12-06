@@ -1,0 +1,237 @@
+/*		Default Layout: 960px. 
+		Gutters: 24px.
+		Outer margins: 48px.
+		Leftover space for scrollbars @1024px: 32px.
+-------------------------------------------------------------------------------
+*/
+
+#nav {
+	display:block;
+}
+#short {
+	width: 960px;
+}
+nav{
+	display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*		Tablet Layout: 768px.
+		Gutters: 24px.
+		Outer margins: 28px.
+		Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+#short {
+	width: 98%;
+}
+#nav {
+	display:none;
+}
+
+#article {
+ 
+    width: 63%;
+    margin-right: 1%;
+    
+}
+#aside {
+	width: 31%;
+}
+nav{
+	display: block;
+}
+
+
+	
+	
+	
+	
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*		Mobile Layout: 320px.
+		Gutters: 24px.
+		Outer margins: 34px.
+		Inherits styles from: Default Layout.
+---------------------------------------------
+cols    1     2      3
+px      68    160    252    */
+
+@media only screen and (max-width: 767px) {
+
+
+#short {
+	width: 98%;
+}
+#nav {
+	display:none;
+}
+section{
+	display:none;
+}
+#style img {
+	width:100%;
+	height: auto;
+}
+#article {
+ 
+    width: 100%;
+  
+    
+}
+#aside {
+	width: 100%;
+}
+#style p{
+	width: 100%;
+}	
+	
+nav{
+	display: block;
+}	
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+/*		Wide Mobile Layout: 480px.
+		Gutters: 24px.
+		Outer margins: 22px.
+		Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+
+
+#short {
+	width: 95%;
+}
+#nav {
+	display:none;
+}
+section{
+	display:none;
+}
+#style img {
+	width:100%;
+	height: auto;
+	padding: 0px;
+}
+
+#article {
+ 
+    width: 97%;
+  
+    
+}
+#aside {
+	width: 97%;
+}
+#style p{
+	width: 100%;
+}	
+	
+	nav{
+	display: block;
+}
+	
+	
+	
+	
+	
+	
+}
+
+
+/*	Retina media query.
+	Overrides styles for devices with a 
+	device-pixel-ratio of 2+, such as iPhone 4.
+-----------------------------------------------    */
+
+@media 
+	only screen and (-webkit-min-device-pixel-ratio: 2),
+	only screen and (min-device-pixel-ratio: 2) {
+	
+
+
+	
+#short {
+	width: 95%;
+}
+#nav {
+	display:none;
+}
+section{
+	display:none;
+}
+#style img {
+	width:100%;
+	height: auto;
+	padding: 0px;
+}
+
+#article {
+ 
+    width: 97%;
+  
+    
+}
+#aside {
+	width: 97%;
+}
+#style p{
+	width: 100%;
+}	
+	
+nav{
+	display: block;
+}	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
